@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(250, 250, 250);
+}
+
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+//all responsiv adaptions
+@media (max-width: 770px){
+    .App{
+        margin: 0;
+        
+    }
+    
+}
